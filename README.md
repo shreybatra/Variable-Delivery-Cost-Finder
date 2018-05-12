@@ -17,14 +17,14 @@ After knowing the nearest constituency containing this request and it’s popula
 The algorithm uses the concept of Dynamic Programming and Memorization in order to keep track and calculate the optimal worker who can process and deliver the order with the least cost. After, this best cost is then compared to the cost of hiring a new worker to deliver the order and the optimal is then selected.
 
 To find the best worker, many parameters have been considered such as - 
-Location of request.
-Constituency from which the request is made.
-Current Location of each worker.
-Current orders on each worker.
-Current travel path of each worker (Stored as Minimum Cost Path in a Graph)
-Workshop location.
-Per_Km_Cost
-Per_Hiring_Cost, etc.
+* Location of request.
+* Constituency from which the request is made.
+* Current Location of each worker.
+* Current orders on each worker.
+* Current travel path of each worker (Stored as Minimum Cost Path in a Graph)
+* Workshop location.
+* Per_Km_Cost
+* Per_Hiring_Cost, etc.
 
 The FindBestWorker algorithm tries to insert a new request (a new vertex) in every worker’s path (Minimum Cost Path) without starting and calculating everything from scratch and tells the optimum answer.
 
