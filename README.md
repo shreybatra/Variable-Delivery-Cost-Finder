@@ -67,3 +67,9 @@ To see the best location of a new workshop, run suggestwarehouse.py after the ab
 
 Any changes, contributions, etc are welcome. This is just a raw process which can be bought up to level.
 
+##Contributors
+
+@dreamviewer12
+@shreybatra
+@iamblizzard
+@yash0707
