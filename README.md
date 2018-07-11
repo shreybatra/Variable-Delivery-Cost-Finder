@@ -59,7 +59,7 @@ Commands 2-5 should be run only to reset the project.
 3. Delete the requests.pickle file.
 4. Run remaster.py
 5. Run temp.py
-6. Run ani.py in a separate cmd to visualize.
+6. Run ani.py in a separate cmd to visualize(Note: It can only be executed on Python 2.x).
 7. Run callupdater.py in a separate cmd to update the visualizer with values.
 8. Run mainalgo.py _the main file_ for the algo. (Enter 0 0 to exit program)
 
